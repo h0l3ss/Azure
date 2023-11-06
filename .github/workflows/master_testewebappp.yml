@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - insightsteste
 on:
   push:
     branches:
-      - teste
+      - master
   workflow_dispatch:
 
 jobs:
